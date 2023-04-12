@@ -1,0 +1,411 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "IndexSoal",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 195610119235039
+		},
+		{
+			"eventType": "variable",
+			"name": "score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 291451655284225
+		},
+		{
+			"functionName": "SetData",
+			"functionCopyPicked": false,
+			"functionDescription": "Kumpulan Data Soal",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 793491800088098,
+					"parameters": {
+						"x": "0",
+						"y": "0",
+						"value": "\"20 + 20 = ...?\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 971445144227405,
+					"parameters": {
+						"x": "0",
+						"y": "1",
+						"value": "\"40\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 899780497859351,
+					"parameters": {
+						"x": "0",
+						"y": "2",
+						"value": "\"04\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 678655740822346,
+					"parameters": {
+						"x": "1",
+						"y": "0",
+						"value": "\"50 + 20 = ...?\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 112997811970549,
+					"parameters": {
+						"x": "1",
+						"y": "1",
+						"value": "\"70\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 450220358031924,
+					"parameters": {
+						"x": "1",
+						"y": "2",
+						"value": "\"07\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 315010892412044,
+					"parameters": {
+						"x": "2",
+						"y": "0",
+						"value": "\"25 * 25 = ...?\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 265175308062677,
+					"parameters": {
+						"x": "2",
+						"y": "1",
+						"value": "\"625\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 217008316075915,
+					"parameters": {
+						"x": "2",
+						"y": "2",
+						"value": "\"265\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 658122789547771,
+					"parameters": {
+						"x": "3",
+						"y": "0",
+						"value": "\"15 * 15 = ...?\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 563037814086096,
+					"parameters": {
+						"x": "3",
+						"y": "1",
+						"value": "\"325\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 766437732115158,
+					"parameters": {
+						"x": "3",
+						"y": "2",
+						"value": "\"235\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 620720503562038,
+					"parameters": {
+						"x": "4",
+						"y": "0",
+						"value": "\"15 - 15 = ...?\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 370813736060511,
+					"parameters": {
+						"x": "4",
+						"y": "1",
+						"value": "\"0\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Data",
+					"sid": 396821837080439,
+					"parameters": {
+						"x": "4",
+						"y": "2",
+						"value": "\"1515\""
+					}
+				}
+			],
+			"sid": 496379184265218
+		},
+		{
+			"functionName": "showData",
+			"functionCopyPicked": false,
+			"functionDescription": "Menampilkan Soal",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "soal",
+					"sid": 349595026412398,
+					"parameters": {
+						"text": "Data.At(IndexSoal,0)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "jawaban1",
+					"sid": 979136031496803,
+					"parameters": {
+						"text": "Data.At(IndexSoal,1)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "jawaban2",
+					"sid": 248250465927749,
+					"parameters": {
+						"text": "Data.At(IndexSoal,2)"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "jawaban1",
+					"sid": 630739953521435,
+					"parameters": {
+						"instance-variable": "benar",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "jawaban2",
+					"sid": 111433031800311,
+					"parameters": {
+						"instance-variable": "benar",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 852135823862082,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 409039699142034,
+							"parameters": {
+								"first-value": "0",
+								"comparison": 0,
+								"second-value": "int(random(0,2))"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-x",
+							"objectClass": "jawaban1",
+							"sid": 824108013613845,
+							"parameters": {
+								"x": "298"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "jawaban2",
+							"sid": 947539924837468,
+							"parameters": {
+								"x": "104"
+							}
+						}
+					],
+					"sid": 642096362839354
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 651610143590213,
+					"parameters": {
+						"object": "jawaban1"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "jawaban1",
+					"sid": 994869769570309,
+					"parameters": {
+						"instance-variable": "benar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 778411582471136,
+					"parameters": {
+						"variable": "score",
+						"value": "20"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "score",
+					"sid": 453877579616491,
+					"parameters": {
+						"text": "\"Score :\"&score"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 867575376633888,
+					"parameters": {
+						"variable": "IndexSoal",
+						"value": "1"
+					}
+				},
+				{
+					"callFunction": "showData",
+					"sid": 179878651896495
+				}
+			],
+			"sid": 909082984752423
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 593112452362781,
+					"parameters": {
+						"object": "jawaban2"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "jawaban2",
+					"sid": 305314195016621,
+					"parameters": {
+						"instance-variable": "benar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 417741390252176,
+					"parameters": {
+						"variable": "score",
+						"value": "20"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "score",
+					"sid": 951992022191194,
+					"parameters": {
+						"text": "\"Score :\"&score"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 925451597812650,
+					"parameters": {
+						"variable": "IndexSoal",
+						"value": "1"
+					}
+				},
+				{
+					"callFunction": "showData",
+					"sid": 210593809733195
+				}
+			],
+			"sid": 620868996590856
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 921450446825711
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "SetData",
+					"sid": 806989090141711
+				},
+				{
+					"callFunction": "showData",
+					"sid": 574420882025403
+				}
+			],
+			"sid": 229304244480756
+		}
+	],
+	"sid": 974189394291405
+}

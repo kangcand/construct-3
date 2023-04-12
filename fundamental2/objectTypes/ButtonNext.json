@@ -1,0 +1,14 @@
+{
+	"name": "ButtonNext",
+	"plugin-id": "Button",
+	"sid": 725378879334183,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 129883343567066
+		}
+	]
+}

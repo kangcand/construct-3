@@ -1,0 +1,14 @@
+{
+	"name": "ButtonPrevious",
+	"plugin-id": "Button",
+	"sid": 540743833122257,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 987096710572767
+		}
+	]
+}

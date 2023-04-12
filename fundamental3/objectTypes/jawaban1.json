@@ -1,0 +1,17 @@
+{
+	"name": "jawaban1",
+	"plugin-id": "Text",
+	"sid": 715819725430551,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "benar",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 169051459523079
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

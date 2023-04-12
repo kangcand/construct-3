@@ -1,0 +1,292 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "pilihan",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 326031995943011
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse2",
+					"sid": 965382143942218,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Mouse"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 831886557379796,
+					"parameters": {
+						"audio-file": "Mouse",
+						"loop": "not-looping",
+						"volume": "50",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 976751869816302
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse2",
+					"sid": 875458471385522,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Cat"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 997957099024036,
+					"parameters": {
+						"audio-file": "Cat",
+						"loop": "not-looping",
+						"volume": "50",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 294084321348054
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse2",
+					"sid": 909000244821825,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Chick"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 430824850694513,
+					"parameters": {
+						"audio-file": "Chick",
+						"loop": "not-looping",
+						"volume": "50",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 826672888485191
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse2",
+					"sid": 184618963394567,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Fox"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 361075455872235,
+					"parameters": {
+						"audio-file": "Fox",
+						"loop": "not-looping",
+						"volume": "50",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 601046716254294
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ButtonNext",
+					"sid": 699340718697615
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 871750294759703,
+					"parameters": {
+						"variable": "pilihan",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 434529356228686
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 311807514841552,
+					"parameters": {
+						"first-value": "pilihan",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 565178382542891,
+					"parameters": {
+						"object": "Cat"
+					}
+				}
+			],
+			"sid": 322878678997598
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Chick",
+					"sid": 974563485158342,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 510614596490311,
+					"parameters": {
+						"object": "Chick"
+					}
+				}
+			],
+			"sid": 497274777343329
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Fox",
+					"sid": 415125612804441,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 187661134054470,
+					"parameters": {
+						"object": "Fox"
+					}
+				}
+			],
+			"sid": 937333132502966
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Mouse",
+					"sid": 632323248385156,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 376931804046495,
+					"parameters": {
+						"object": "Mouse"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "ButtonNext",
+					"sid": 433889564674409,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 366960336456509
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ButtonPrevious",
+					"sid": 895034708394989
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 199985627156142,
+					"parameters": {
+						"variable": "pilihan",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 265373870628807
+		}
+	],
+	"sid": 963326659394173
+}

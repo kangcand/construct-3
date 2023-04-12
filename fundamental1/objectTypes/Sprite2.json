@@ -1,0 +1,76 @@
+{
+	"name": "Sprite2",
+	"plugin-id": "Sprite",
+	"sid": 422586169180090,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "health_point",
+			"type": "number",
+			"desc": "nyawa char",
+			"show": true,
+			"sid": 145880032879031
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 360784084446896
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 225855862648020
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 108,
+						"height": 103,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4910181,
+						"collisionPoly": {
+							"points": [
+								0.23148148148148148,
+								0.24271844660194175,
+								0.5,
+								0.06796116504854369,
+								0.6944444444444444,
+								0.32038834951456313,
+								0.9537037037037037,
+								0.5,
+								0.7037037037037037,
+								0.6893203883495146,
+								0.5,
+								0.970873786407767,
+								0.19444444444444445,
+								0.7961165048543689,
+								0.037037037037037035,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 978956803233864,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

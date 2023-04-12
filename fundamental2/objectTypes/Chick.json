@@ -1,0 +1,65 @@
+{
+	"name": "Chick",
+	"plugin-id": "Sprite",
+	"sid": 806420148064498,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "pilih",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 242157048076586
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3035279,
+						"collisionPoly": {
+							"points": [
+								0.3359375,
+								0.3359375,
+								0.5,
+								0.15625,
+								0.6640625,
+								0.3359375,
+								0.7421875,
+								0.5,
+								0.734375,
+								0.734375,
+								0.5,
+								0.84375,
+								0.2578125,
+								0.7421875,
+								0.2578125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 336119016160443,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
